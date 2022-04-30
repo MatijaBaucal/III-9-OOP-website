@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+	<link href="main.css" rel="stylesheet">
+	<script src = "javascript.js"></script> 
+		<title>Game Review</title>
+		<script>
+			myTest()
+		</script>
+	</head>
+
+	<body>
+		<h1>Game Review</h1>
+		
+		<p>Date/Time: <span id="datetime"></span></p>
+		
+		<img src="C:\Users\Matija\OneDrive\Documents\HTML\league-of-legends.jpg" class = "center"/>
+		<p> In the game, two teams of five players battle in player versus player combat, each team occupying and defending their half of the map. Each of the ten players controls a character, known as a "champion", with unique abilities and differing styles of play. During a match, champions become more powerful by collecting experience points, earning gold, and purchasing items to defeat the opposing team. In the game's main mode, Summoner's Rift, a team wins by pushing through to the enemy base and destroying their "Nexus", a large structure located within. </p>
+		
+		<img src= "C:\Users\Matija\OneDrive\Documents\HTML\CSGO.jpg" class = "center"/>
+		<p>Similar to the previous Counter-Strike game, players play as terrorists or anti-terrorists and have to complete tasks while trying to eliminate an opposing team. Players buy weapons and equipment at the beginning of each round with money awarded based on their performance. Achieved goals, such as planting a bomb or killing an enemy, bring the player a profit, but negative actions, such as shooting at your player or hostage will result in a fine. </p>
+		
+		<img src="C:\Users\Matija\OneDrive\Documents\HTML\minecraftpic.jpg" class = "center"/>
+		<p> In Minecraft, players explore a blocky, procedurally generated 3D world with virtually infinite terrain, and may discover and extract raw materials, craft tools and items, and build structures, earthworks and simple machines. Depending on game mode, players can fight computer-controlled mobs, as well as cooperate with or compete against other players in the same world. Game modes include a survival mode, in which players must acquire resources to build the world and maintain health, and a creative mode where players have unlimited resources and access to flight. Players can modify the game to create new gameplay mechanics, items, and assets.</p>
+		
+        <script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+        </script>
+	</body>
+</html>
